@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {},
+            }
+        }
+    </script>
+</head>
+<body class="flex h-screen justify-center items-center bg-gray-800">
+    <div class="card flex flex-col w-96 p-4 bg-gray-700 text-white rounded-lg shadow-lg">
+        <h2 class="text-xl font-semibold text-center mb-3">Tasks</h2>
+        
+        <div class="flex space-x-2 mb-3">
+            <input id="todo-input" type="text" placeholder="Add a new task" 
+                class="flex-1 px-2 py-1 rounded bg-gray-600 border border-gray-500 text-white outline-none">
+            <button id="add-task-btn" class="bg-blue-500 px-3 py-1 rounded text-white hover:bg-blue-600">
+                Add
+            </button>
+        </div>
+
+        <!-- Empty task list -->
+        <ul id="todo-list">
+            
+        </ul>
+    </div>
+
+    <!-- Ensure script loads after the DOM -->
+    <script src="script.js"></script> 
+</body>
+</html>
