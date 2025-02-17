@@ -1,7 +1,3 @@
-Here’s a simple README for your To-Do app:
-
----
-
 # To-Do App
 
 A simple To-Do app built with HTML, CSS, and JavaScript that allows users to add and delete tasks dynamically. It provides a clean interface for managing your tasks.
