@@ -43,12 +43,3 @@ To run the To-Do app locally, follow these steps:
     - Event listeners handle adding tasks, rendering the task list, and deleting tasks.
     - Tasks are stored in an array and rendered dynamically.
 
-## Contributing
-
-Feel free to fork this project and make improvements or suggest changes. To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make your changes and commit them.
-4. Push your changes to your fork and create a pull request.
-
