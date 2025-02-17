@@ -56,10 +56,3 @@ Feel free to fork this project and make improvements or suggest changes. To cont
 3. Make your changes and commit them.
 4. Push your changes to your fork and create a pull request.
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Feel free to tweak it further to match your project structure or any additional instructions you'd like to add.
